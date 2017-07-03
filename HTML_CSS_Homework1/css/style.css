@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 1024px;
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #f1f2ef;
+}
+
+.content  {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.personal-info {
+  padding-top: 50px;
+  border-bottom: solid #c3c3c6 1px;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border: solid #8f8f8f 1px;
+}
+
+.profession {
+  margin-top: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.why-frontend,
+.contacts {
+  margin-top: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: solid #c3c3c6 1px;
+}
+
+.feedback {
+  margin-top: 20px;
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-left: 40px;
+}
+
+.contacts__phone-number,
+.feedback__text,
+.contacts__href {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.contacts__href {
+  color: blue;
+  font-style: italic;
+}
