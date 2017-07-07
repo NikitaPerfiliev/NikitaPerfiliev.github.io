@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-block {
+  display: inline-block;
+  border: 2px dashed;
+  padding: 5px;
+}
+
+p {
+margin-bottom: 20px;
+}
+

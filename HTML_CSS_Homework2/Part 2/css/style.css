@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-block {
+  width: 300px;
+  padding: 10px 30px 30px 5px;
+}
+
+h2{
+  color: white;
+  background: red;
+  margin-bottom: 20px;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+.main-block__paragraph-1 {
+  background: blue;
+  padding-bottom: 3em;
+  margin-bottom: 20px;
+}
+
+.main-block__paragraph-2 {
+  background: yellow;
+  padding-bottom: 2em;
+}
