@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-block{
+  background: #fd734d;
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+

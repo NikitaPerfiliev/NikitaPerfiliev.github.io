@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-block {
+  padding: 20px 20px 20px 10px;
+  display: inline-block;
+}
+
+
+.block-red {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.block-orange {
+  width: 200px;
+  height: 100px;
+  background: orange;
+}
+
+.block-blue {
+  width: 300px;
+  height: 100px;
+  background: blue;
+}
+
+.block-red,
+.block-orange {
+  margin-bottom: 30px;
+}
