@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+.wrapper {
+  height: 550px;
+  width: 400px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.product-name {
+  height: 83px;
+  width: 80%;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 22px;
+  margin-left: 10%;
+  padding-top: 15px;
+}
+
+.lenovo-image {
+  width: 288px;
+  text-align: center;
+  width: auto;
+}
+
+.rassrochka {
+  height: 31px;
+  width: 190px;
+  box-shadow: -4px 4px 0px 0px rgba(156,156,156,1);
+  background-color: #8bc144;  
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 22px;
+  color: white;
+} 
+
+.price-info {
+  height: 66px;
+  line-height: 67px;
+  width: auto;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 31px;
+}
+
+.buy-button {
+  height: 47px;
+  line-height: 47px;
+  width: 229px;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 28px;
+  color: white;
+  background-color: #ff0000;
+  margin-left: 62px;
+  text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
+  }
+
+  .buy-button__border{
+    height: 4px;
+    width: 228px;
+    background-color: #850000;
+  }
