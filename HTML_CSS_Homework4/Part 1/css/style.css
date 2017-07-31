@@ -5,6 +5,8 @@
 
 body {
   background: #ffffff;
+  font-family: Tahoma;
+  text-align: center;
 }
 
 .wrapper {
@@ -17,8 +19,6 @@ body {
 .product-name {
   height: 83px;
   width: 80%;
-  text-align: center;
-  font-family: Tahoma;
   font-size: 22px;
   margin-left: 10%;
   padding-top: 15px;
@@ -26,7 +26,6 @@ body {
 
 .lenovo-image {
   width: 288px;
-  text-align: center;
   width: auto;
 }
 
@@ -35,8 +34,6 @@ body {
   width: 190px;
   box-shadow: -4px 4px 0px 0px rgba(156,156,156,1);
   background-color: #8bc144;  
-  text-align: center;
-  font-family: Tahoma;
   font-size: 22px;
   color: white;
 } 
@@ -45,8 +42,6 @@ body {
   height: 66px;
   line-height: 67px;
   width: auto;
-  text-align: center;
-  font-family: Tahoma;
   font-size: 31px;
 }
 
@@ -54,8 +49,6 @@ body {
   height: 47px;
   line-height: 47px;
   width: 229px;
-  text-align: center;
-  font-family: Tahoma;
   font-size: 28px;
   color: white;
   background-color: #ff0000;
