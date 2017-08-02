@@ -24,11 +24,6 @@ body {
   padding-top: 15px;
 }
 
-.lenovo-image {
-  width: 288px;
-  width: auto;
-}
-
 .rassrochka {
   height: 31px;
   width: 190px;
@@ -59,5 +54,6 @@ body {
   .buy-button__border{
     height: 4px;
     width: 228px;
+    margin-left: 72px;
     background-color: #850000;
   }
