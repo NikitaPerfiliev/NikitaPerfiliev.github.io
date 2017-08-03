@@ -40,15 +40,16 @@ body {
   font-size: 31px;
 }
 
-.buy-button {
+button {
   height: 47px;
   line-height: 47px;
   width: 229px;
   font-size: 28px;
   color: white;
   background-color: #ff0000;
-  margin-left: 72px;
+  margin-right: 27px;
   text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
+  border: 0px;
   }
 
   .buy-button__border{
