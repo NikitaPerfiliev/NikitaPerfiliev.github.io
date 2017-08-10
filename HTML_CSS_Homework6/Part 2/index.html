@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>HTML/CSS Homework 6 – Part 2</title>
+</head>
+<body>
+  <div class="exc1">
+    <table>
+        <caption>Задание 1</caption>
+        <thead>
+          <tr>
+            <th rowspan="2">Напиток</th>
+            <th colspan="5">Человечек</th>
+          </tr>
+          <tr>
+            <td>Незнайка</td>
+            <td>Пончик</td>
+            <td>Торопыжка</td>
+            <td>Пилюлкин</td>
+            <td>Всего</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="lefthead">Квас, л</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td class="lefthead">Газировка, л</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td class="lefthead">Сироп, л</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td class="lefthead">Касторка, л</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="lefthead">Итого:</td>
+            <td>4</td>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td>13</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="exc2">
+      <table>
+        <caption>Задание 2</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Item Name</th>
+            <th>Item Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+          <tr>
+            <td>Shannon</td>
+            <td>KitKat</td>
+            <td>$9.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="exc3">
+      <table>
+        <caption>Задание 3</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Item Name</th>
+            <th>Item Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+          <tr>
+            <td>Shannon</td>
+            <td>KitKat</td>
+            <td>$9.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="exc4">
+      <table>
+        <caption>Задание 4</caption>
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Кол-во</th>
+            <th>Цена</th>
+            <th>Скидка</th>
+            <th></th>
+            <th>Итого</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Медведь девочка</td>
+            <td>1 шт.</td>
+            <td>300 грн.</td>
+            <td>50%</td>
+            <td>
+              <button class="plus">+</button>
+              <button class="minus">-</button>
+              <button class="delete">УДАЛИТЬ</button>
+            </td>
+            <td>300 грн.</td>
+          </tr>
+          <tr>
+            <td>Динозавр</td>
+            <td>1 шт.</td>
+            <td>100 грн.</td>
+            <td>&mdash;</td>
+            <td>
+              <button class="plus">+</button>
+              <button class="minus">-</button>
+              <button class="delete">УДАЛИТЬ</button>
+            </td>
+            <td>100 грн.</td>
+          </tr>
+          <tr>
+            <td>Семейный домик</td>
+            <td>1 шт.</td>
+            <td>10 000 грн.</td>
+            <td>&mdash;</td>
+            <td>
+              <button class="plus">+</button>
+              <button class="minus">-</button>
+              <button class="delete">УДАЛИТЬ</button>
+            </td>
+            <td>10 000 грн.</td>
+          </tr>
+          <tr>
+            <td>Веселый горох</td>
+            <td>1 шт.</td>
+            <td>300 грн.</td>
+            <td>&mdash;</td>
+            <td>
+              <button class="plus">+</button>
+              <button class="minus">-</button>
+              <button class="delete">УДАЛИТЬ</button>
+            </td>
+            <td>300 грн.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6">
+              <p>4 шт. на сумму: <span>10 700 грн.</span></p>
+              <p>Сумма без скидки: 11 000 грн. &mdash;</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="6"><a href="#">перейти в корзину &rarr;</a></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+</body>
+</html>

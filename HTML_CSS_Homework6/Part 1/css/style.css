@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Ecercise 5*/
+p::after {
+  content: '*';
+}
+/* Ecercise 5*/
+
+/* Ecercise 6*/
+p::before {
+  content: "\2602";
+}
+/* Ecercise 6*/
+
+div { 
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.paragraph1 {
+  background: green;
+}
+
+.paragraph1:hover {
+  background: yellow;
+}
+
+.paragraph1:active {
+  background: red;
+}
+
+.paragraph2 {
+  background: violet;
+}
+
+.paragraph2:hover {
+  background: brown;
+}
+
+.paragraph2:active {
+  background: gold;
+}
+
+#input-text:focus {
+  border: 5px green solid;
+}
+
+.exercise3 p:nth-child(odd) {
+  background: grey;
+}
+
+.exercise4 p::first-letter {
+  font-size: 2em;
+  color: red;
+  font-family: Georgia;
+}
+
+.exercise7 {
+    background: black;
+    position: relative;
+    width: 100px; height: 50px;
+    left: 50px;
+   }
+.exercise7::before {
+    content: ''; 
+    border: 10px solid transparent; 
+    border-right: 20px solid black;
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}

@@ -1,0 +1,189 @@
+div {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 800px;
+  padding: 20px;
+}
+
+/* Задание 1 */
+.exc1 td{
+  text-align: center;
+  padding: 5px;
+}
+
+.exc1 caption{
+  padding-bottom: 5px;
+}
+
+.exc1 table{
+  border-collapse: collapse;
+}
+
+.exc1 td:first-child{
+  text-align: left;
+}
+
+.exc1 table,
+.exc1 td,
+.exc1 th {
+  border: 1px solid black;
+}
+
+/* Задание 1 */
+
+/* Задание 2*/
+.exc2 table{
+  border-collapse: collapse;
+}
+
+.exc2 th{
+  text-align: left;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc2 td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc2 thead{
+  border-bottom: 1px solid lightgrey;
+}
+/* Задание 2*/
+
+
+/* Задание 3*/
+.exc3 table{
+  border-collapse: collapse;
+}
+
+.exc3 th{
+  text-align: left;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc3 td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc3 thead,
+.exc3 tr {
+  border-bottom: 1px solid lightgrey;
+}
+/* Задание 3*/
+
+/* Задание 4*/
+.exc4 {
+  font-family: Tahoma;
+  font-size: 15px;
+}
+
+.exc4 table{
+  border-collapse: collapse;
+}
+
+.exc4 th{
+  text-align: left;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc4 td {
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.exc4 tr{
+  text-align: left;
+}
+
+.exc4 td:first-child{
+  color: #ea4f56;
+}
+
+.exc4 thead,
+.exc4 tr {
+  border-bottom: 1px solid lightgrey;
+}
+
+.exc4 tbody tr:last-of-type,
+.exc4 tfoot tr {
+  border-bottom: 0px;
+}
+
+.exc4 tbody tr:last-of-type td {
+  padding-bottom: 40px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.plus,
+.minus {
+  background-color: #e7242a;
+  border: 2px solid #e7242a;
+  width: 28px;
+}
+
+.delete {
+  background-color: #dc4e45;
+  border: 0;
+}
+
+.exc4 tfoot tr:first-of-type {
+  text-align: right;
+  border-right: 4px solid #DCDCDC;
+  line-height: 5px;
+}
+
+.exc4 tfoot tr:last-of-type {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+.exc4 a {
+  text-decoration: none;
+  color: red;
+}
+
+.exc4 tfoot p:first-of-type {
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
+}
+
+.exc4 tfoot p:last-of-type {
+  color: silver;
+  margin-bottom: 5px;
+}
+
+.exc4 tfoot td:first-of-type {
+  padding: 0;
+  padding-right: 20px;
+}
+
+.exc4 tfoot tr:last-of-type td {
+  padding-top: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+/* Задание 4*/
