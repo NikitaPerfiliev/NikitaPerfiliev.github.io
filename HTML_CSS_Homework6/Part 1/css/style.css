@@ -48,6 +48,10 @@ div {
   border: 5px green solid;
 }
 
+#input-text:hover {
+  border: 5px green solid;
+}
+
 .exercise3 p:nth-child(odd) {
   background: grey;
 }
