@@ -1,6 +1,5 @@
 div {
   margin-bottom: 20px;
-  border: 1px solid black;
   width: 800px;
   padding: 20px;
 }
@@ -81,6 +80,9 @@ div {
 .exc4 {
   font-family: Tahoma;
   font-size: 15px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
 }
 
 .exc4 table{
@@ -124,7 +126,9 @@ div {
   padding-bottom: 40px;
 }
 
-button {
+.plus,
+.minus, 
+.delete {
   display: inline-block;
   border-radius: 0;
   color: white;
@@ -140,8 +144,25 @@ button {
 }
 
 .delete {
-  background-color: #dc4e45;
-  border: 0;
+  background-color: #e7242a;
+  border: 2px solid #e7242a;
+}
+
+.close-button {
+  color: white;
+  position: absolute;
+  right: -13px;
+  text-decoration: none;
+  border-radius: 15px;
+  top: -13px;
+  background-color: black;
+  border: 2px solid white;
+  box-shadow: 0 0 5px black;
+  font: 14px arial, sans-serif;
+}
+
+.close-button::after{
+    content: '\2613';
 }
 
 .exc4 tfoot tr:first-of-type {

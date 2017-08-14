@@ -16,8 +16,8 @@ p::before {
 /* Ecercise 6*/
 
 div { 
-  margin-bottom: 20px;
-  width: 200px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .paragraph1 {
@@ -64,6 +64,7 @@ div {
     width: 100px; height: 50px;
     left: 50px;
    }
+
 .exercise7::before {
     content: ''; 
     border: 10px solid transparent; 
