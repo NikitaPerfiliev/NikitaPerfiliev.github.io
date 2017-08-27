@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Verdana;
+}
+
+main img {
+  width: 100%;
+}
+
+header {
+  padding: 2%;
+  background-color: #f1f1f1;
+  border: 1px solid #e9e9e9;
+  width: 100%;
+}
+
+p {
+  padding: 20px 0px;
+}
+
+.menuitem {
+  margin: 5%;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 5%;
+  border-bottom: 1px solid #e9e9e9;
+  cursor: pointer;
+}
+
+main {
+  padding: 2%;
+  width: 40%;
+}
+
+aside {
+  padding: 2%;
+  background-color: #CDF0F6;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+header,
+menu,
+aside,
+main {
+  float: left;
+}
+
+menu {
+  width: 25%;
+}
+
+aside {
+  width: 25%;
+  margin-right: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+  
+  header {
+    margin: 0 2%;
+  }
+
+  menu {
+    width: 100%;
+    padding-top: 2%;
+    padding: 0 4%;
+  }
+
+  p {
+  padding-right: 5%;
+  }
+
+  img {
+    padding-left: 1%;
+  }
+
+  .menuitem {
+    width: 94%;
+    padding: 1% 0;
+    margin: 5% 0;
+
+  }
+
+  main {
+    width: 96%;
+    padding: 2%;
+  }
+
+  aside {
+    width: 96%;
+    padding: 2%;
+    margin: 2%;
+  }
+
+  header,
+  menu,
+  aside,
+  main {
+    float: left;
+  }
+
+  .wrapper {
+    width: 98%;
+    margin-right: 2%;
+  }
+}
