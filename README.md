@@ -1,2 +1,4 @@
 # NikitaPerfiliev.github.io
-GoFrontend Cources
+
+Nikita Perfiliev
+https://www.facebook.com/n.perfilev
