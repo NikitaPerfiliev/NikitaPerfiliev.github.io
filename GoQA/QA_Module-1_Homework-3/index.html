@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>GoQA Module1 Homework3</title>
+</head>
+
+<body>
+  <form class="reg-form" action="#">
+    <h2 class="reg-form__title">Форма регистрации</h2>
+    <ul class="reg-form__list">
+      <li class="reg-form__list-item">
+        <label class="reg-form__name-label" for="name">Имя:</label>
+        <input class="reg-form__name" type="text" name="name" id="name" placeholder="">
+      </li>
+      <li class="reg-form__list-item">
+        <label class="reg-form__lastname-label" for="lastname">Фамилия:</label>
+        <input class="reg-form__lastname" type="text" name="lastname" id="lastname" placeholder="">
+      </li>
+      <li class="reg-form__list-item">
+        <label class="reg-form__username-label" for="username">Username:</label>
+        <input class="reg-form__username" type="text" name="username" id="username" required="required" placeholder="">
+      </li>
+      <li class="reg-form__list-item">
+        <ul class="reg-form__gender-list">
+          <h3 class="reg-form__gender-list-title">Выберите пол:</h3>
+          <li class="reg-form__gender-list-item">
+            <input class="reg-form__gender-list-input" type="radio" name="gender" value="man" id="man">
+            <label class="reg-form__gender-list-label" for="man">Мужской</label>
+          </li>
+          <li class="reg-form__gender-list-item">
+            <input class="reg-form__gender-list-input" type="radio" name="gender" value="woman" id="woman">
+            <label class="reg-form__gender-list-label" for="woman">Женский</label>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <button class="reg-form__button">Зарегистрироваться</button>
+    <a class="reg-form__link" href="https://www.facebook.com/">Go to Facebook</a>
+  </form>
+</body>
+
+</html>
